@@ -1,7 +1,7 @@
-import { sendMessage } from '../components/Data/data';
-import { IMessage } from '../components/Data/message';
-import { Chat } from '../components/Chat/Chat';
-import { ChatInput } from '../components/ChatInput/ChatInput'
+import { sendMessage } from './components/Data/data';
+import { IMessage } from './components/Data/message';
+import { Chat } from './components/Chat/Chat';
+import { ChatInput } from './components/ChatInput/ChatInput';
 import styles from './App.module.scss';
 import { useState } from 'react';
 
