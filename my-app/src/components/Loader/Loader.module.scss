@@ -1,0 +1,109 @@
+@media screen and (min-width:1200px) {
+	.container {
+		background-color: rgba(34, 118, 245, 0.20);
+		padding: 12px 20px;
+		width: fit-content;
+		border-radius: 28px;
+	}
+	
+	$loader-size: 30px;
+	$loader-color: #3498db;
+	
+	.loader {
+	  display: inline-block;
+	  width: $loader-size;
+	  height: $loader-size;
+	  border: 4px solid $loader-color;
+	  border-top: 4px solid transparent;
+	  border-radius: 50%;
+	  animation: spin 1s linear infinite;
+	}
+	
+	@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+}
+
+
+@media screen and (orientation: landscape) and (min-width:768px) and (max-width:1199px)  {
+	.container {
+		background-color: rgba(34, 118, 245, 0.20);
+		padding: 12px 20px;
+		width: fit-content;
+		border-radius: 28px;
+	}
+	$loader-size: 30px;
+	$loader-color: #3498db;
+	
+	.loader {
+	  display: inline-block;
+	  width: $loader-size;
+	  height: $loader-size;
+	  border: 4px solid $loader-color;
+	  border-top: 4px solid transparent;
+	  border-radius: 50%;
+	  animation: loader 1s linear infinite;
+	}
+	
+	@keyframes loader {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+}
+
+
+@media screen and (orientation: portrait) and (min-width:768px) and (max-width:1199px)  {
+	.container {
+		background-color: rgba(34, 118, 245, 0.20);
+		padding: 12px 20px;
+		width: fit-content;
+		border-radius: 28px;
+	}
+	$loader-size: 30px;
+	$loader-color: #3498db;
+	
+	.loader {
+	  display: inline-block;
+	  width: $loader-size;
+	  height: $loader-size;
+	  border: 4px solid $loader-color;
+	  border-top: 4px solid transparent;
+	  border-radius: 50%;
+	  animation: loader 1s linear infinite;
+	}
+	
+	@keyframes loader{
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+	
+}
+
+@media screen and (min-width:320px) and (max-width:765px) {
+	.container {
+		background-color: rgba(34, 118, 245, 0.20);
+		padding: 12px 20px;
+		width: fit-content;
+		border-radius: 28px;
+	}
+	
+	$loader-size: 20px;
+	$loader-color: #3498db;
+	
+	.loader {
+	  display: inline-block;
+	  width: $loader-size;
+	  height: $loader-size;
+	  border: 4px solid $loader-color;
+	  border-top: 4px solid transparent;
+	  border-radius: 50%;
+	  animation: loader 1s linear infinite;
+	}
+	
+	@keyframes loader {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+	}
+	
+}
